@@ -129,7 +129,70 @@ article {
 
 }
 
-.uper-footer {
+.upper-footer-container {
     background-color: #2f2f2f;
+}
+
+.upper-footer {
+    width: 960px;
+    margin: auto;
+}
+
+.upper {
     display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    color: white;
+    padding: 40px;
+}
+
+.latest-post{
+   
+}
+
+.latest-post > span,.about > span, .stay-conected > span{
+    
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.mini-post{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-top: 20px;
+}
+
+.date{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.post-title{
+
+   margin-left: 10px;
+   width: 300px;
+  
+}
+.social-icon{
+    margin-top: 20px;
+}
+.facebook{
+    margin-top: 20px;
+}
+
+
+.lower-footer-container {
+    background-color: #f5f5f5;
+}
+
+.lower-footer {
+    color: black;
+    text-align: center;
+    height: 50px;
+    padding-top: 15px;
 }
